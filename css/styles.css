@@ -1,0 +1,10 @@
+html{
+    font-size: 65.5%;
+    box-sizing: border-box; 
+    scroll-snap-type: y mandatory;
+}
+
+/*fix box mode*/
+*, *:before, *:after {
+    box-sizing: inherit;
+}
